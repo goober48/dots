@@ -13,6 +13,6 @@ end
 set -gx PATH "$HOME/.wakatime" $PATH
 terminal-wakatime init fish | source
 
-#maybe this can fix vscode
+#frccode to code alias
 set -gx PATH "$HOME/wpilib/2026/frccode" $PATH
-#test
+#TODO dwm, more fish, cachyos-config.fish, browser, waybar rofi screenlock whatever 
