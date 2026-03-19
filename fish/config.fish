@@ -5,9 +5,6 @@ source /usr/share/cachyos-fish-config/cachyos-config.fish
 #function fish_greeting
 #    # smth smth
 #end
-if test -z "$WAYLAND_DISPLAY"; and test "$XDG_VTNR" = 1
-    exec sway
-end
 
 # terminal-wakatime setup
 set -gx PATH "$HOME/.wakatime" $PATH
