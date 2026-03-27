@@ -1,0 +1,10 @@
+TODO
+convert dwm to twm
+add and fix keybinds for dwm, default applications
+add necessary patches for dwm. maybe switch from dwmstart to the autostart patch.
+rice dmenu
+get a bar
+replace alacritty with st
+rice st
+fonts
+screenlock
