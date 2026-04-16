@@ -11,5 +11,5 @@ set -gx PATH "$HOME/.wakatime" $PATH
 terminal-wakatime init fish | source
 
 #frccode to code alias
+#btw im lazy and just using the wpilib vscode binary instead of installing normal VS
 set -gx PATH "$HOME/wpilib/2026/frccode" $PATH
-#TODO dwm, more fish, cachyos-config.fish, browser, waybar rofi screenlock whatever 
