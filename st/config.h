@@ -97,24 +97,25 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
+	/*TempleOS uses the CGA 16-color palette which doesn't perfectly match up with the ANSI order thing*/
 	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	"#aa0000", // red
+	"#00aa00", //green
+	"#aa5500", //yellow in order, but actually brown
+	"#0000aa", //blue
+	"#aa00aa", //magenta
+	"#00aaaa", //cyan
+	"#aaaaaa", // grey
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#555555", // gray or black
+	"#ff5555", //red
+	"#55ff55", //green
+	"#ffff55", // yellow
+	"#5555ff", //blue
+	"#ff55ff", //,agemta
+	"#55ffff", // cyan
+	"#ffffff", // bright white
 
 	[255] = 0,
 
@@ -202,6 +203,8 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
+	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i =  0} },
+	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i =  0} },
 };
 
 /*

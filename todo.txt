@@ -1,10 +1,18 @@
 TODO
 convert dwm to twm
+- fix 1 pixel edge next to right, bottom border
+- colors, tiling behavior
 add and fix keybinds for dwm, default applications
 add necessary patches for dwm. maybe switch from dwmstart to the autostart patch.
 rice dmenu
 get a bar
-replace alacritty with st
+
 rice st
-fonts
-screenlock
+- colors, general look
+- NEED TO SCROLL
+add TOS font to all basic applications
+NEED a screenlock
+
+fix fastfetch to have tos logo
+
+add TOS PROGRAMS!! bible gen etc 
