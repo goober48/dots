@@ -2,10 +2,12 @@ TODO
 convert dwm to twm
 - fix 1 pixel edge next to right, bottom border
 - colors, tiling behavior
+add god programs and keybinds 
 add and fix keybinds for dwm, default applications
 add necessary patches for dwm. maybe switch from dwmstart to the autostart patch.
 rice dmenu
-get a bar
+rice the bar, get colors right
+border space
 
 rice st
 - colors, general look
