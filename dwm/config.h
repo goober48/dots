@@ -1,5 +1,5 @@
 /* See LICENSE file for copyright and license details. */
-
+#include <X11/XF86keysym.h>
 /* appearance */
 static const unsigned int borderpx  = 3;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
@@ -100,9 +100,9 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_c,      quit,           {0} },
-    { 0,                            XK_F4,     spawn,          {.v = upvol } },
-	{ 0,                            XK_F3,     spawn,          {.v = downvol } },
-    { 0,                            XK_F2,     spawn,          {.v = togglevol } },
+    { 0,                            XF86XK_AudioRaiseVolume, spawn,          {.v = upvol } },
+	{ 0,                            XF86XK_AudioLowerVolume, spawn, {.v = downvol } },
+    { 0,                            XF86XK_AudioMute,     spawn,          {.v = togglevol } },
 
 
 

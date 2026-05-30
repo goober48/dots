@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  * I am using the TempleOS font from https://github.com/rendello/templeos_font btw
  */
-static char *font = "TempleOS:pixelsize=12:antialias=true:autohint=true";
+static char *font = "TempleOS:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -122,7 +122,7 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#555555",
-	"#55ffff", /* default foreground colour */
+	"#5555ff", /* default foreground colour */
 	"#ffffff", /* default background colour */
 };
 
